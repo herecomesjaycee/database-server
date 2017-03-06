@@ -1,0 +1,9 @@
+Documentation:
+    Enabled: false
+AllCops:
+
+  Excludes:
+    - db/**
+    - config/**
+    - script/**
+    - spec/spec_helper.rb
