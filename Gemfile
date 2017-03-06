@@ -1,8 +1,12 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rspec-sinatra"
-gem "capybara"
-gem "thin"
-gem "rack"
-gem "json"
+gem 'capybara'
+gem 'json'
+gem 'rack'
+gem 'rspec-sinatra'
+gem 'rubocop'
+gem 'thin'
+
+group :test do
+  gem 'simplecov'
+end
